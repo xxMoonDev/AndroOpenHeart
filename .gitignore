@@ -1,0 +1,15 @@
+.gradle/
+build/
+app/build/
+app/.cxx/
+local.properties
+*.iml
+.idea/
+
+# Release signing: never commit the passwords or the keystore
+keystore.properties
+*.jks
+*.keystore
+
+# Built APKs go to GitHub Releases, not into the repository
+*.apk
